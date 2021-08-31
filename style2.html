@@ -1,0 +1,118 @@
+<html>
+    <head>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+        <title>BRBR</title>
+        
+
+
+
+    </head>
+
+    <body style="background-color:#f5f1ec;">
+
+        <section id='intro'>
+            <div class='container'>
+                <script>
+                    a = 3
+                    var slump = Math.random();
+                    var talet = Math.round(slump * (a-1))+1;
+                    function create() {
+                    this.src = ''
+                    this.border = ''
+                    this.alt = ''
+                    
+                    }
+                    
+                    b = new Array()
+                    for(var i=1; i<=a; i++) { b[i] = new create() }
+                    
+                    
+                    b[1].src = "https://i.imgur.com/HZiBU42.jpg"
+                    b[1].border = "0"
+                    b[1].alt = "圖片一"
+                    
+                    
+                    b[2].src = "https://i.imgur.com/IHbd34e.jpg"
+                    b[2].border = "0"
+                    b[2].alt = "圖片二"
+                    
+                    
+                    b[3].src = "https://i.imgur.com/BQo4R3v.jpg"
+                    b[3].border = "0"
+                    b[3].alt = "圖片三"
+                    
+                    var visa = "";
+                    
+                    visa += '<img src='+b[talet].src+' border="0"'+' alt='+b[talet].alt+' class="img-fluid">';
+                    
+                    </script>
+                    <script>
+                    <!-- Hide this script from old browsers --
+                    document.write(visa)
+                    // -->
+                    </script>
+                <div class="tab_css">
+                  <!-- TAB1 打包區塊 start -->
+                  <input id="tab1" type="radio" name="tab" checked="checked"/>
+                  <label for="tab1">室友1</label>
+                  <div class="tab_content">
+                  弘中睫毛！世界最好！<br/>
+                  星和眼睛！blingbling！<br/>
+                  <br/><br/><br/><br/><br/><br/><br/>
+                  </div>
+                  <!-- TAB1 打包區塊 end -->
+                  
+                  <!-- TAB2 打包區塊 start -->
+                  <input id="tab2" type="radio" name="tab"/>
+                  <label for="tab2">室友2</label>
+                  <div class="tab_content">
+                  潤浩生氣！雙腿無力！<br/>
+                  傘尼腹肌！天下第一！<br/>
+                  <br/><br/><br/><br/><br/><br/><br/>
+                  </div>
+                  <!-- TAB2 打包區塊 end -->
+                  
+                  <!-- TAB3 打包區塊 start -->
+                  <input id="tab3" type="radio" name="tab"/>
+                  <label for="tab3">室友3</label>
+                  <div class="tab_content">
+                  呂國隊長！沒人能擋！<br/>
+                  友榮料理！無人能比！<br/>
+                  <br/><br/><br/><br/><br/><br/><br/>
+                  </div>
+                  <!-- TAB3 打包區塊 end -->
+                  </div>
+                  
+                  <style>
+                  .tab_css{display:flex;flex-wrap:wrap;justify-content:center;}
+                  .tab_css{position: absolute;top: 300px;right: 200px;left: 200px;margin:auto;background:#f5f1ec;}
+                  .tab_css input{display:none}
+                  .tab_css label{margin: 0 5px 5px 0; padding: 10px 16px; cursor: pointer; border-radius: 5px; background: #999; color: #fff; opacity: 0.5;}
+                  .tab_content{order:1;display: none; width:100%; border-bottom: 3px solid #ddd; line-height: 1.6; font-size: .9em; padding: 15px; border: 1px solid #ddd; border-radius: 5px;}
+                  .tab_css input:checked + label, .tab_css label:hover{opacity: 1; font-weight:bold;}
+                  .tab_css input:checked + label + .tab_content{display: initial;}
+                  </style>
+            
+
+
+
+
+            </div>
+
+
+
+
+        </section>
+
+
+    </body>
+
+
+
+
+
+</html>
